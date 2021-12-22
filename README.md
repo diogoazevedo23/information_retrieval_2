@@ -29,11 +29,10 @@ Autores:
 
 ---------------
 
-<p>Then we can do the index searcher with:
+<p>Then we can do the ranker with:
 
-<h5>py index1.py 'term'</h5>
+<h5>py ranked.py ('path to queries.txt') ('yes') ('yes') ('tfidf')</h5>
 
-<p>term: term that you are trying to find in the index
 <p>path = queries.txt
 <p>tokenizer = yes/no
 <p>stemmer = yes/no
