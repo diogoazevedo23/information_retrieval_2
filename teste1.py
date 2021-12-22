@@ -32,7 +32,7 @@ class teste1:
     """ Initialize some functions/variables """
 
     # def __init__(self, min_tamanho, tokenizer_mode, steemer, chunksize, file='files/amazon_reviews_us_Digital_Video_Games_v1_00.tsv'):
-    def __init__(self, min_tamanho, tokenizer_mode, steemer, chunksize, file='files/amazon_reviews_us_Digital_Music_Purchase_v1_00.tsv'):
+    def __init__(self, min_tamanho, tokenizer_mode, steemer, chunksize, file='files/testFile.tsv'):
         self.tokenizer_mode = tokenizer_mode
         self.tokenizer = Tokenizer(min_tamanho, tokenizer_mode, steemer)
         self.file = file

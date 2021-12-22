@@ -196,6 +196,7 @@ class Ranked:
                                 tdidfFinal[key][k].update(value * v)
 
         #print("\ntdidfFinal ->", tdidfFinal, "\n")
+        print("\nFinalSum")
 
         finalSum = {}
         for key, subdict in tdidfFinal.items():
@@ -203,6 +204,7 @@ class Ranked:
                 finalSum[k] = finalSum.get(k, 0) + v
 
         #print("\ntdidfFinal ->", finalSum, "\n")
+        print("\ntop5Results")
 
         top5Results = {k: v for k, v in sorted(
             finalSum.items(), key=lambda item: item[1], reverse=True)[0:100]}
