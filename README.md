@@ -1,4 +1,4 @@
-<h1>Information Retrieval work #1</h1>
+<h1>Information Retrieval work #2</h1>
 
 Autores:
 <p>Diogo Azevedo nº 104654 / Ricardo Madureira nº 104624
@@ -29,14 +29,17 @@ Autores:
 
 ---------------
 
-<p>Then we can do the index searcher with:
+<p>Then we can do the ranker with:
 
-<h5>py index1.py 'term'</h5>
+<h5>py ranked.py ('path to queries.txt') ('yes') ('yes') ('tfidf')</h5>
 
-<p>term: term that you are trying to find in the index
+<p>path = queries.txt
+<p>tokenizer = yes/no
+<p>stemmer = yes/no
+<p>ranker = tfidf/bm25
 
 <h5>Example:</h5>
-<h5>py index1.py rock</h5>
+<h5>py ranked.py queries.txt yes yes tfidf</h5>
 
 ---------------
 
@@ -58,9 +61,9 @@ pip install psutil
 py teste1.py 4 yes yes 120000
 ```
 <p>
-<h4>Search:</h4>
+<h4>Ranker:</h4>
 
 ```jsx
-py index1.py rock
+py ranked.py queries.txt yes yes tfidf
 ```
 
