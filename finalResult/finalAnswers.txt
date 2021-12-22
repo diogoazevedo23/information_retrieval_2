@@ -1,0 +1,9 @@
+File == files/amazon_reviews_us_Digital_Music_Purchase_v1_00.tsv
+
+	**Answers**
+
+
+a) Total indexing time == 915.3981671333313 s.
+b) Total index size on disk == 1.326 GB
+c) Vocabulary size(number of terms) == 269699 terms
+d) Number of temporary index segments written to disk (before merging) == 15 blocks
